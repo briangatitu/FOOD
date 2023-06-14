@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+  background-image: url(food.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 10px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+  padding: 4px 15px;
+  border: 10px solid transparent;
+  transition: 0.5 ease;
+
+}
+ul li a:hover{
+  background-color:black;
+  color:red;
+}
+ul li .active a{
+  background-color:black;
+  color: red;
+}
+
+.logo img{
+float:left;
+width: 200px;
+height: auto;
+
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+   color: brown;
+  font: size 10px;;
+}
+
+
+.button{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 52%;
+  top: 65%
+}
+
+
+.btn{
+  border: 3px solid red;
+  padding: 5px 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
